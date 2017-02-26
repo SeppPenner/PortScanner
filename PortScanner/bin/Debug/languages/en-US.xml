@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Identifier>en-US</Identifier> <!--According to https://msdn.microsoft.com/de-de/library/ee825488(v=cs.20).aspx-->
+	<Name>English (US)</Name>
+	<Words>
+		<Word>
+			<Key>InsertHost</Key>
+			<Value>Insert host:</Value>
+		</Word>
+		<Word>
+			<Key>StartPortscan</Key>
+			<Value>Start portscan</Value>
+		</Word>
+		<Word>
+			<Key>ScanFrom</Key>
+			<Value>Scan from </Value>
+		</Word>
+		<Word>
+			<Key>PortList</Key>
+			<Value>https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers</Value>
+		</Word>
+		<Word>
+			<Key>ListOfOpenPorts</Key>
+			<Value>List of open ports for the host </Value>
+		</Word>
+		<Word>
+			<Key>HostMustntBeEmpty</Key>
+			<Value>The host mustn't be empty</Value>
+		</Word>
+		<Word>
+			<Key>HostIsEmpty</Key>
+			<Value>The host is empty</Value>
+		</Word>
+	</Words>
+</Language>
