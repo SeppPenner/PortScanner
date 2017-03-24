@@ -5,7 +5,7 @@ namespace PortScanner
 {
     public static class GUIExtensions
     {
-        static public void UIThread(this Control control, Action code)
+        public static void UIThread(this Control control, Action code)
         {
             if (control.InvokeRequired)
             {
@@ -15,7 +15,7 @@ namespace PortScanner
             code.Invoke();
         }
 
-        static public void UIThreadInvoke(this Control control, Action code)
+        public static void UIThreadInvoke(this Control control, Action code)
         {
             if (control.InvokeRequired)
             {
