@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<HelpTOC>
+
+  <HelpTOCNode Id="1d2a5da3-4621-4b8b-a78a-4feb2651bca7" Title="Namespaces" Url="html/d75eb659-6335-53f6-af7a-81814a21ab7f.htm">
+    <HelpTOCNode Id="0fa0e1c5-4ae4-41f0-bf52-dbe346c52ba8" Title="Languages.Events" Url="html/39d97094-c618-3157-f4ce-be39b8c778b9.htm">
+      <HelpTOCNode Id="edc407aa-88ff-4f12-a10c-df635ababdcc" Title="LanguageChangedEventArgs Class" Url="html/c82d756e-f1aa-110e-eaae-a2a94a0260a0.htm">
+        <HelpTOCNode Title="LanguageChangedEventArgs Constructor " Url="html/be6a4e53-9ed1-7209-e1d4-e11574a77079.htm" />
+        <HelpTOCNode Id="c816fe79-5236-4853-bdb8-fc069624cdf4" Title="LanguageChangedEventArgs Methods" Url="html/4fc6ab20-b723-6a0a-05aa-d7692df1fe4b.htm">
+          <HelpTOCNode Title="GetInfo Method " Url="html/d37c77f3-02fd-abd6-08ca-524ddf51e352.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="894955fd-3ba0-4143-9fc6-844599b543d1" Title="Languages.Exceptions" Url="html/4ce35407-ba4f-5136-5285-a6577782f9aa.htm">
+      <HelpTOCNode Id="7c340f54-0be2-4a23-9cb5-a7280e2b1ee0" Title="LanguageInitializationException Class" Url="html/be22727d-a1b8-3e0e-d30f-70944007a700.htm">
+        <HelpTOCNode Id="1ae7aede-1383-4c38-b403-c52cbef4c197" Title="LanguageInitializationException Constructor " Url="html/a1e01755-6617-9fd5-37a9-bb2f848f1404.htm">
+          <HelpTOCNode Title="LanguageInitializationException Constructor " Url="html/8ef3e57a-c78a-69ec-6f6f-91536da0cbeb.htm" />
+          <HelpTOCNode Title="LanguageInitializationException Constructor (String)" Url="html/2abb7e21-6fbd-7591-014e-963d379ddb98.htm" />
+          <HelpTOCNode Title="LanguageInitializationException Constructor (String, Exception)" Url="html/5e91b860-2a75-87d4-4aa6-ca61795a5b8e.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LanguageInitializationException Properties" Url="html/5ba3b43c-13ca-b9eb-436d-29f4c23454b2.htm" />
+        <HelpTOCNode Title="LanguageInitializationException Methods" Url="html/5d74ee08-3905-b72b-aa1a-0fcf89228372.htm" />
+        <HelpTOCNode Title="LanguageInitializationException Events" Url="html/a0fa31bd-ee19-4cf7-046f-c38b34c33ddf.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="6d5bf3e1-b90f-4482-a6ab-283a0fcdc62a" Title="LanguageNotLoadedException Class" Url="html/251d5473-c3f6-fc55-f1d0-a791e817937c.htm">
+        <HelpTOCNode Id="cb97bac4-41bf-4001-ba41-b712357a5d31" Title="LanguageNotLoadedException Constructor " Url="html/ad5f8bbc-5767-528b-6fae-7050e4141515.htm">
+          <HelpTOCNode Title="LanguageNotLoadedException Constructor " Url="html/0c18388c-6e94-f68e-779b-69c299e42be4.htm" />
+          <HelpTOCNode Title="LanguageNotLoadedException Constructor (String)" Url="html/ba16d1b3-799d-61f5-89b0-5120606badbe.htm" />
+          <HelpTOCNode Title="LanguageNotLoadedException Constructor (String, Exception)" Url="html/1056e583-33ca-e820-a60d-e60b5e70288b.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="LanguageNotLoadedException Properties" Url="html/e8b480e6-fbe8-a79d-4177-1f73355c48fe.htm" />
+        <HelpTOCNode Title="LanguageNotLoadedException Methods" Url="html/ec4db254-ded7-ad26-c9cf-4b6bf88a9f8d.htm" />
+        <HelpTOCNode Title="LanguageNotLoadedException Events" Url="html/75d22ac6-a0c2-1054-9e88-dd270f8a9244.htm" />
+      </HelpTOCNode>
+      <HelpTOCNode Id="19660fac-0e7e-43fe-922e-e97b2dbe65e3" Title="WrongFileExtensionException Class" Url="html/436bb904-6dde-87b0-48d8-a3eec1bfda53.htm">
+        <HelpTOCNode Id="b1e5a881-a521-454b-852a-fe443cbc9cfb" Title="WrongFileExtensionException Constructor " Url="html/72a412e9-1e37-8409-9768-a04f37daa752.htm">
+          <HelpTOCNode Title="WrongFileExtensionException Constructor " Url="html/101bec58-f1f5-9a25-87a2-a17711fc9dc4.htm" />
+          <HelpTOCNode Title="WrongFileExtensionException Constructor (String)" Url="html/9d90f39d-5e95-3be5-5f14-f8caa6ee6028.htm" />
+          <HelpTOCNode Title="WrongFileExtensionException Constructor (String, Exception)" Url="html/2d09fada-63e5-d1b1-fea1-e2f4380a2078.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="WrongFileExtensionException Properties" Url="html/be6da030-4774-11db-cc2c-0ee01e6b2633.htm" />
+        <HelpTOCNode Title="WrongFileExtensionException Methods" Url="html/a2f7ea7a-4e10-db20-2dda-629e9dc51dc5.htm" />
+        <HelpTOCNode Title="WrongFileExtensionException Events" Url="html/a25a6c46-242b-0b07-87af-5a9c8549092a.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="8eea8370-78a5-4419-9a08-11f0ae3e0b05" Title="Languages.Implementation" Url="html/0c96d466-95d1-a66d-ff27-2b42638c3b2c.htm">
+      <HelpTOCNode Id="b148e6eb-d401-48b0-82fe-f8a5d1843694" Title="ImportExport Class" Url="html/d0e01f8e-e6a7-ceb4-a02d-580f67ff5215.htm">
+        <HelpTOCNode Title="ImportExport Constructor " Url="html/43bce49c-7cab-8a55-0051-21b418779e34.htm" />
+        <HelpTOCNode Id="f966f74b-6370-4964-bc91-e470155b87cb" Title="ImportExport Properties" Url="html/a8fa4ffc-1e4d-770b-6e6b-835ab5c57c20.htm">
+          <HelpTOCNode Title="Exceptions Property " Url="html/c647f8d5-9524-85d5-64e5-04955016c5fc.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="2935d123-060b-4503-8107-a212505448cf" Title="ImportExport Methods" Url="html/4118a0d4-c989-3981-47df-5518196fb807.htm">
+          <HelpTOCNode Title="GetExceptions Method " Url="html/d777182b-87af-bb2c-eb48-406edb2ffb0d.htm" />
+          <HelpTOCNode Id="60075ece-36b9-46a0-87fc-e2216600a141" Title="Load Method " Url="html/ba7d26a5-36f3-0ad2-6278-a633ac0f4023.htm">
+            <HelpTOCNode Title="Load Method (IEnumerable(String))" Url="html/1134eafe-690a-1b8c-9dbe-1d4aeaa3454b.htm" />
+            <HelpTOCNode Title="Load Method (String)" Url="html/8c191a87-a3e5-3a9d-2df3-65b6b0429f3c.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="LoadDefaults Method " Url="html/3213c15d-b017-3fef-2f8c-d29ad12485ba.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="6f333474-be51-4f75-9532-ba4c17955fdd" Title="Language Class" Url="html/75d0677f-eeb9-16d6-f40d-80044ad33394.htm">
+        <HelpTOCNode Title="Language Constructor " Url="html/9b37f39f-73c9-969d-25dc-2d2a27c75d20.htm" />
+        <HelpTOCNode Id="dcb6ce61-ba36-4461-965d-5f79838ac361" Title="Language Properties" Url="html/e0ece9cf-5248-ce34-b26e-f6aae5822eaf.htm">
+          <HelpTOCNode Title="Identifier Property " Url="html/9abccbc0-a445-2a09-e47d-9924983c3cea.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/8a62c654-604f-71f6-ce8f-18eaf4bc380e.htm" />
+          <HelpTOCNode Title="Words Property " Url="html/898637e7-b24d-bba4-ee59-102065a63e86.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="437a652d-ffad-426b-9006-e0efc68b74f9" Title="Language Methods" Url="html/1102a0c5-03e9-ea57-28b4-84b868770b99.htm">
+          <HelpTOCNode Title="GetCulture Method " Url="html/12d8903f-fb0e-1e24-69f2-b1fd1c3f1bf8.htm" />
+          <HelpTOCNode Title="GetWord Method " Url="html/94fd5a11-9f94-e4ce-d499-c727f45cbf86.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="c3703f57-14b2-4f7e-a03b-0e283af874d0" Title="LanguageManager Class" Url="html/d6e9f4af-00fd-368d-2120-e4cb8e60e1d0.htm">
+        <HelpTOCNode Title="LanguageManager Constructor " Url="html/041de572-cc5b-c8ed-2f95-a5aba941f8af.htm" />
+        <HelpTOCNode Id="b260eb01-4435-45ad-80f6-4bdfbf23ae5a" Title="LanguageManager Methods" Url="html/d170f306-d685-5a00-8f37-0f3a4b675c3b.htm">
+          <HelpTOCNode Title="GetCurrentLanguage Method " Url="html/564a61ab-db8a-0674-edde-a618c038bfb1.htm" />
+          <HelpTOCNode Title="GetLanguages Method " Url="html/1f7c7273-2d05-45cd-d99a-3b66e0a7e3ad.htm" />
+          <HelpTOCNode Title="GetWord Method " Url="html/7323018b-7f0b-2afb-21fe-f86aeccf8d59.htm" />
+          <HelpTOCNode Title="LanguageChanged Method " Url="html/720edc5c-607b-1ad9-0862-1f41a59f7952.htm" />
+          <HelpTOCNode Title="ReloadLanguages Method " Url="html/716fae3b-1b5a-ab90-42ae-cb1124d53707.htm" />
+          <HelpTOCNode Title="SetCurrentLanguage Method " Url="html/a27f28a3-dfc3-e145-d90f-a7fbf155b6ef.htm" />
+          <HelpTOCNode Title="SetCurrentLanguageFromName Method " Url="html/39c03dad-743e-f8c7-f3ee-5538bfbd2f8d.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="e12d0c76-c333-408c-aa42-4789818e233d" Title="LanguageManager Events" Url="html/8e4da957-f73f-9ace-d558-abc202bdb9a7.htm">
+          <HelpTOCNode Title="OnLanguageChanged Event" Url="html/d9eadac4-9786-47f7-6602-4391803e5439.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="31a5196a-5dc2-4c29-875d-55d264dcf845" Title="Word Class" Url="html/7b806a96-6cb4-c716-2400-908235d07a87.htm">
+        <HelpTOCNode Title="Word Constructor " Url="html/f344e600-fc14-4262-122b-23665aba49f6.htm" />
+        <HelpTOCNode Id="fc3eae43-7f23-41a4-8b2c-3e5590bf6207" Title="Word Properties" Url="html/b70577c4-7a4f-c39e-b3aa-75a947598b27.htm">
+          <HelpTOCNode Title="Key Property " Url="html/f040bee7-d106-a646-0ba6-5cbb79c8b57d.htm" />
+          <HelpTOCNode Title="Value Property " Url="html/7d33b316-64c4-42a3-4295-e88bd3958516.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Title="Word Methods" Url="html/2b75a3d7-e948-759f-36ff-c098c984c1e6.htm" />
+      </HelpTOCNode>
+    </HelpTOCNode>
+    <HelpTOCNode Id="e970aaec-cf7e-4723-9805-b1f7bf13a950" Title="Languages.Interfaces" Url="html/429b23df-220e-22d1-b835-03e453564021.htm">
+      <HelpTOCNode Id="4f7836ef-40a1-4ce8-88a4-579e77b1871a" Title="IImportExport Interface" Url="html/269bf0f0-0741-b227-5738-f3bdbe3be0f8.htm">
+        <HelpTOCNode Id="c4d7ffc8-aa3b-4c5e-8681-e4cbe07c4f42" Title="IImportExport Methods" Url="html/939800c5-298b-8542-c145-0b42697f08b3.htm">
+          <HelpTOCNode Title="GetExceptions Method " Url="html/6a40b8e9-2420-1330-5432-9019e07c4f39.htm" />
+          <HelpTOCNode Id="5dddf935-25ec-4ac3-9de9-f2964e704841" Title="Load Method " Url="html/53199320-f948-cba6-598d-b0bab03b9911.htm">
+            <HelpTOCNode Title="Load Method (IEnumerable(String))" Url="html/670eb682-2fce-e86a-6c89-573919f86c5e.htm" />
+            <HelpTOCNode Title="Load Method (String)" Url="html/0d3b4991-01c7-beec-fdae-690011a90471.htm" />
+          </HelpTOCNode>
+          <HelpTOCNode Title="LoadDefaults Method " Url="html/5ad8648e-4489-8d29-5c37-6df86f0a0f46.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="4bacbb2f-ac1c-49bc-a25d-6babfdf3540e" Title="ILanguage Interface" Url="html/b5ce0fab-56ba-4c63-c170-c284ee5778fa.htm">
+        <HelpTOCNode Id="9f59bb7b-8573-4f79-9401-6c122b4e6ffd" Title="ILanguage Properties" Url="html/3aa6da15-d1bf-acb4-38db-a8d040918df1.htm">
+          <HelpTOCNode Title="Identifier Property " Url="html/b345a21f-e50d-cf4e-8ea0-7c9a9e697b81.htm" />
+          <HelpTOCNode Title="Name Property " Url="html/dfa0106e-ad98-6ebf-6bbe-71c277d6104a.htm" />
+          <HelpTOCNode Title="Words Property " Url="html/c11a1378-a791-ffde-a9f9-54af13d1ed47.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="3b37441b-b10b-401b-bd2e-a689c7e5bb2c" Title="ILanguage Methods" Url="html/51d6bf65-db00-06a8-5a41-c1cd331e0a48.htm">
+          <HelpTOCNode Title="GetCulture Method " Url="html/badc6009-42ba-7e89-858c-4261720fdb08.htm" />
+          <HelpTOCNode Title="GetWord Method " Url="html/b2dc834b-6931-9fce-549c-fb2b414baa2c.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="04014778-2ccf-4aec-a901-26f979ab9d3b" Title="ILanguageManager Interface" Url="html/5dddbbd9-0d4f-8041-9799-114a34866e95.htm">
+        <HelpTOCNode Id="9f26ab78-da8f-4e9e-8a7d-2baef2ef555a" Title="ILanguageManager Methods" Url="html/8d5827bc-78c0-3a6f-9d05-7c1e674c09f1.htm">
+          <HelpTOCNode Title="GetCurrentLanguage Method " Url="html/f9b6d27e-439e-16d7-790b-7b6564a387ef.htm" />
+          <HelpTOCNode Title="GetLanguages Method " Url="html/fa5eb4f4-ba53-d105-60fe-74f44bcf9210.htm" />
+          <HelpTOCNode Title="GetWord Method " Url="html/631efdae-0de3-1b16-270a-0c2b16dccdbb.htm" />
+          <HelpTOCNode Title="ReloadLanguages Method " Url="html/884c1ad2-97ca-4c31-3b14-9ee2f4e983ec.htm" />
+          <HelpTOCNode Title="SetCurrentLanguage Method " Url="html/e3b8b062-06af-2165-0a33-96ca80c1a0a8.htm" />
+          <HelpTOCNode Title="SetCurrentLanguageFromName Method " Url="html/6ba0028f-4037-66b3-0312-67206568f168.htm" />
+        </HelpTOCNode>
+        <HelpTOCNode Id="695bcaa1-ce56-47ad-8f48-74814d5e75e2" Title="ILanguageManager Events" Url="html/56823347-5f0c-2adc-aa0f-adcca8bf6dad.htm">
+          <HelpTOCNode Title="OnLanguageChanged Event" Url="html/e1185ed9-5689-526e-29d8-4fe1d675cc9e.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+      <HelpTOCNode Id="bf5a91b5-0730-4f14-b7a8-ad60dfd920bd" Title="IWord Interface" Url="html/2cf96103-617f-42e5-461f-5fcd1797bb38.htm">
+        <HelpTOCNode Id="73e45fc3-6c58-4720-8b51-9bff5514ab65" Title="IWord Properties" Url="html/9cf2a2aa-f00f-53d9-369d-751740cf425a.htm">
+          <HelpTOCNode Title="Key Property " Url="html/4c62aff5-3cb4-b6c7-28ba-e8f8c90dfd25.htm" />
+          <HelpTOCNode Title="Value Property " Url="html/6e6b5f23-b93f-f937-f5e5-3c42aae9341e.htm" />
+        </HelpTOCNode>
+      </HelpTOCNode>
+    </HelpTOCNode>
+  </HelpTOCNode>
+</HelpTOC>
