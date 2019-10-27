@@ -2,11 +2,11 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "PortScanner"
-#define MyAppVersion "1.0.0.4"
+#define MyAppVersion "1.0.1.0"
 #define MyAppPublisher "Hämmer Electronics"
 #define MyAppURL "www.softwareload24.de.tl"
 #define MyAppExeName "PortScanner.exe"
-#define MyPath "C:\Users\tim\Desktop\Updaten_Snyk\PortScanner"
+#define MyPath "C:\Users\Tim\Documents\Git\C# und VB\PortScanner"
 
 [Setup]
 ; NOTE: The value of AppId uniquely identifies this application.
@@ -23,13 +23,13 @@ AppPublisher={#MyAppPublisher}
 AppPublisherURL={#MyAppURL}
 AppSupportURL={#MyAppURL}
 AppUpdatesURL={#MyAppURL}
-DefaultDirName={pf}\{#MyAppName}
+DefaultDirName={commonpf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 AllowNoIcons=yes
-LicenseFile={#MyPath}\PortScanner\bin\Debug\License.txt
+LicenseFile={#MyPath}\PortScanner\bin\Release\License.txt
 OutputDir={#MyPath}\Setup
 OutputBaseFilename=PortScanner-Setup
-SetupIconFile={#MyPath}\PortScanner\bin\Debug\Radar.ico
+SetupIconFile={#MyPath}\PortScanner\bin\Release\Radar.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -42,11 +42,11 @@ Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{
 Name: "quicklaunchicon"; Description: "{cm:CreateQuickLaunchIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked; OnlyBelowVersion: 0,6.1
 
 [Files]
-Source: "{#MyPath}\PortScanner\bin\Debug\PortScanner.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "{#MyPath}\PortScanner\bin\Debug\Languages.dll"; DestDir: "{app}"; Flags: ignoreversion
-Source: "{#MyPath}\PortScanner\bin\Debug\License.txt"; DestDir: "{app}"; Flags: ignoreversion
-Source: "{#MyPath}\PortScanner\bin\Debug\Radar.ico"; DestDir: "{app}"; Flags: ignoreversion
-Source: "{#MyPath}\PortScanner\bin\Debug\languages\*"; DestDir: "{app}\languages\"; Flags: ignoreversion recursesubdirs createallsubdirs
+Source: "{#MyPath}\PortScanner\bin\Release\PortScanner.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\PortScanner\bin\Release\Languages.dll"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\PortScanner\bin\Release\License.txt"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\PortScanner\bin\Release\Radar.ico"; DestDir: "{app}"; Flags: ignoreversion
+Source: "{#MyPath}\PortScanner\bin\Release\languages\*"; DestDir: "{app}\languages\"; Flags: ignoreversion recursesubdirs createallsubdirs
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]

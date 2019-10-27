@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Language xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <Identifier>de-DE</Identifier> <!--According to https://msdn.microsoft.com/de-de/library/ee825488(v=cs.20).aspx-->
+	<Name>Deutsch</Name>
+	<Words>
+		<Word>
+			<Key>InsertHost</Key>
+			<Value>Host eingeben:</Value>
+		</Word>
+		<Word>
+			<Key>StartPortscan</Key>
+			<Value>Portscan starten</Value>
+		</Word>
+		<Word>
+			<Key>ScanFrom</Key>
+			<Value>Scan vom </Value>
+		</Word>
+		<Word>
+			<Key>PortList</Key>
+			<Value>https://de.wikipedia.org/wiki/Liste_der_standardisierten_Ports</Value>
+		</Word>
+		<Word>
+			<Key>ListOfOpenPorts</Key>
+			<Value>Liste der offenen Ports für den Host </Value>
+		</Word>
+		<Word>
+			<Key>HostMustntBeEmpty</Key>
+			<Value>Host darf nicht leer sein</Value>
+		</Word>
+		<Word>
+			<Key>HostIsEmpty</Key>
+			<Value>Host ist leer</Value>
+		</Word>
+	</Words>
+</Language>
