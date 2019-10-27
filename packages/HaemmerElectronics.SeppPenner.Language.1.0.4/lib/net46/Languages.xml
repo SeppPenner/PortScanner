@@ -1,0 +1,348 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Languages</name>
+    </assembly>
+    <members>
+        <member name="T:Languages.Events.LanguageChangedEventArgs">
+            <summary>
+                The <see cref="T:Languages.Events.LanguageChangedEventArgs" /> class.
+            </summary>
+        </member>
+        <member name="M:Languages.Events.LanguageChangedEventArgs.#ctor(System.String)">
+            <summary>
+                Constructor with text.
+            </summary>
+            <param name="text">The text to be set to the params.</param>
+        </member>
+        <member name="M:Languages.Events.LanguageChangedEventArgs.GetInfo">
+            <summary>
+                Gets the <see cref="T:Languages.Events.LanguageChangedEventArgs" /> info.
+            </summary>
+            <returns>The event info of the <see cref="T:Languages.Events.LanguageChangedEventArgs" />.</returns>
+        </member>
+        <member name="T:Languages.Exceptions.LanguageInitializationException">
+            <summary>
+                An <see cref="T:System.Exception" /> that is thrown whenever the <see cref="T:Languages.Implementation.Language" /> is not initialized correctly.
+            </summary>
+        </member>
+        <member name="M:Languages.Exceptions.LanguageInitializationException.#ctor">
+            <summary>
+                Default constructor.
+            </summary>
+        </member>
+        <member name="M:Languages.Exceptions.LanguageInitializationException.#ctor(System.String)">
+            <summary>
+                Constructor with message.
+            </summary>
+            <param name="message">The <see cref="T:System.Exception" /> message to be shown.</param>
+        </member>
+        <member name="M:Languages.Exceptions.LanguageInitializationException.#ctor(System.String,System.Exception)">
+            <summary>
+                Constructor with message and inner <see cref="T:System.Exception" /> message.
+            </summary>
+            <param name="message">The <see cref="T:System.Exception" /> message to be shown.</param>
+            <param name="inner">The inner The <see cref="T:System.Exception" /> to be shown.</param>
+        </member>
+        <member name="T:Languages.Exceptions.LanguageNotLoadedException">
+            <summary>
+                An <see cref="T:System.Exception" /> that is thrown whenever the <see cref="T:Languages.Implementation.Language" /> is not loaded correctly.
+            </summary>
+        </member>
+        <member name="M:Languages.Exceptions.LanguageNotLoadedException.#ctor">
+            <summary>
+                Default constructor.
+            </summary>
+        </member>
+        <member name="M:Languages.Exceptions.LanguageNotLoadedException.#ctor(System.String)">
+            <summary>
+                Constructor with message.
+            </summary>
+            <param name="message">The <see cref="T:System.Exception" /> message to be shown.</param>
+        </member>
+        <member name="M:Languages.Exceptions.LanguageNotLoadedException.#ctor(System.String,System.Exception)">
+            <summary>
+                Constructor with message and inner <see cref="T:System.Exception" /> message.
+            </summary>
+            <param name="message">The <see cref="T:System.Exception" /> message to be shown.</param>
+            <param name="inner">The inner The <see cref="T:System.Exception" /> to be shown.</param>
+        </member>
+        <member name="T:Languages.Exceptions.WrongFileExtensionException">
+            <summary>
+                An <see cref="T:System.Exception" /> that is thrown whenever the file extension is wrong.
+            </summary>
+        </member>
+        <member name="M:Languages.Exceptions.WrongFileExtensionException.#ctor">
+            <summary>
+                Default constructor.
+            </summary>
+        </member>
+        <member name="M:Languages.Exceptions.WrongFileExtensionException.#ctor(System.String)">
+            <summary>
+                Constructor with message.
+            </summary>
+            <param name="message">The <see cref="T:System.Exception" /> message to be shown.</param>
+        </member>
+        <member name="M:Languages.Exceptions.WrongFileExtensionException.#ctor(System.String,System.Exception)">
+            <summary>
+                Constructor with message and inner <see cref="T:System.Exception" /> message.
+            </summary>
+            <param name="message">The <see cref="T:System.Exception" /> message to be shown.</param>
+            <param name="inner">The inner The <see cref="T:System.Exception" /> to be shown.</param>
+        </member>
+        <member name="T:Languages.Implementation.ImportExport">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.IImportExport" />.
+            </summary>
+        </member>
+        <member name="P:Languages.Implementation.ImportExport.Exceptions">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.IImportExport" />.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.ImportExport.Load(System.String)">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.IImportExport" />.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.ImportExport.LoadDefaults">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.IImportExport" />.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.ImportExport.GetExceptions">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.IImportExport" />.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.ImportExport.Load(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.IImportExport" />.
+            </summary>
+        </member>
+        <member name="T:Languages.Implementation.Language">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguage"/>.
+            </summary>
+        </member>
+        <member name="P:Languages.Implementation.Language.Name">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguage"/>.
+            </summary>
+        </member>
+        <member name="P:Languages.Implementation.Language.Identifier">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguage"/>.
+            </summary>
+        </member>
+        <member name="P:Languages.Implementation.Language.Words">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguage"/>.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.Language.GetWord(System.String)">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguage"/>.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.Language.GetCulture">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguage"/>.
+            </summary>
+        </member>
+        <member name="T:Languages.Implementation.LanguageManager">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguageManager"/>.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.LanguageManager.#ctor">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguageManager"/>.
+                Creates a new instance of the <see cref="T:Languages.Implementation.LanguageManager"/> class.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.LanguageManager.ReloadLanguages">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguageManager"/>.
+            </summary>
+        </member>
+        <member name="E:Languages.Implementation.LanguageManager.OnLanguageChanged">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguageManager"/>.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.LanguageManager.GetLanguages">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguageManager"/>.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.LanguageManager.GetCurrentLanguage">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguageManager"/>.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.LanguageManager.GetWord(System.String)">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguageManager"/>.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.LanguageManager.SetCurrentLanguage(System.String)">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguageManager"/>.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.LanguageManager.SetCurrentLanguageFromName(System.String)">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.ILanguageManager"/>.
+            </summary>
+        </member>
+        <member name="M:Languages.Implementation.LanguageManager.LanguageChanged(System.EventArgs)">
+            <summary>
+            Called whenever the language is changed.
+            </summary>
+            <param name="e">The parameters.</param>
+        </member>
+        <member name="T:Languages.Implementation.Word">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.IWord"/>.
+            </summary>
+        </member>
+        <member name="P:Languages.Implementation.Word.Key">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.IWord"/>.
+            </summary>
+        </member>
+        <member name="P:Languages.Implementation.Word.Value">
+            <summary>
+                <inheritdoc cref="T:Languages.Interfaces.IWord"/>.
+            </summary>
+        </member>
+        <member name="T:Languages.Interfaces.IImportExport">
+            <summary>
+                An <see cref="T:Languages.Implementation.ImportExport" /> class to load <see cref="T:Languages.Implementation.Language" />s from file names.
+            </summary>
+        </member>
+        <member name="M:Languages.Interfaces.IImportExport.Load(System.String)">
+            <summary>
+                Loads the <see cref="T:Languages.Implementation.Language" /> defined by the file name.
+            </summary>
+            <param name="filename">The <see cref="T:Languages.Implementation.Language" /> file name that should be loaded.</param>
+            <returns>The corresponding <see cref="T:Languages.Implementation.Language" /> class.</returns>
+        </member>
+        <member name="M:Languages.Interfaces.IImportExport.Load(System.Collections.Generic.IEnumerable{System.String})">
+            <summary>
+                Loads the <see cref="T:Languages.Implementation.Language" />s defined by the file names.
+            </summary>
+            <param name="fileNames">The <see cref="T:Languages.Implementation.Language" /> file names that should be loaded.</param>
+            <returns>The corresponding <see cref="T:Languages.Implementation.Language" />s <see cref="T:System.Collections.Generic.List`1" />.</returns>
+        </member>
+        <member name="M:Languages.Interfaces.IImportExport.LoadDefaults">
+            <summary>
+                Loads the default <see cref="T:Languages.Implementation.Language" />s.
+            </summary>
+            <returns>A list of <see cref="T:Languages.Implementation.Language" />s.</returns>
+        </member>
+        <member name="M:Languages.Interfaces.IImportExport.GetExceptions">
+            <summary>
+                Shows the <see cref="T:System.Exception" />s that occured while loading the <see cref="T:Languages.Implementation.Language" />s.
+            </summary>
+            <returns>The <see cref="T:System.Collections.Generic.List`1" /> of <see cref="T:System.Exception" />s.</returns>
+        </member>
+        <member name="T:Languages.Interfaces.ILanguage">
+            <summary>
+                The <see cref="T:Languages.Implementation.Language" /> class to store different <see cref="T:Languages.Implementation.Language" />s.
+            </summary>
+        </member>
+        <member name="P:Languages.Interfaces.ILanguage.Identifier">
+            <summary>
+                The identifier of the <see cref="T:Languages.Implementation.Language" /> according to
+                https://msdn.microsoft.com/de-de/library/ee825488(v=cs.20).aspx.
+            </summary>
+        </member>
+        <member name="P:Languages.Interfaces.ILanguage.Name">
+            <summary>
+                The name of the <see cref="T:Languages.Implementation.Language" />.
+            </summary>
+        </member>
+        <member name="P:Languages.Interfaces.ILanguage.Words">
+            <summary>
+                A <see cref="T:System.Collections.Generic.List`1" /> of <see cref="T:Languages.Implementation.Word" />s in the loaded <see cref="T:Languages.Implementation.Language" />.
+            </summary>
+        </member>
+        <member name="M:Languages.Interfaces.ILanguage.GetWord(System.String)">
+            <summary>
+                Gets a word by a key
+            </summary>
+            <param name="key">The key that is defined for the <see cref="T:Languages.Implementation.Word" />.</param>
+            <returns>The <see cref="T:Languages.Implementation.Word" /> defined by the key.</returns>
+            // ReSharper disable once UnusedMemberInSuper.Global
+        </member>
+        <member name="M:Languages.Interfaces.ILanguage.GetCulture">
+            <summary>
+                Gets the current <see cref="T:System.Globalization.CultureInfo" />.
+            </summary>
+            <returns>The currently loaded <see cref="T:System.Globalization.CultureInfo" />.</returns>
+        </member>
+        <member name="T:Languages.Interfaces.ILanguageManager">
+            <summary>
+                The <see cref="T:Languages.Implementation.LanguageManager" /> class to manage the <see cref="T:Languages.Implementation.Language" />s.
+            </summary>
+        </member>
+        <member name="M:Languages.Interfaces.ILanguageManager.SetCurrentLanguage(System.String)">
+            <summary>
+                Sets the current <see cref="T:Languages.Implementation.Language" /> by the identifier.
+            </summary>
+            <param name="identifier">The identifier of the <see cref="T:Languages.Implementation.Language" /> that should be set.</param>
+        </member>
+        <member name="M:Languages.Interfaces.ILanguageManager.SetCurrentLanguageFromName(System.String)">
+            <summary>
+                Sets the current <see cref="T:Languages.Implementation.Language" /> by the name.
+            </summary>
+            <param name="name">The name of the <see cref="T:Languages.Implementation.Language" /> that should be set.</param>
+        </member>
+        <member name="M:Languages.Interfaces.ILanguageManager.GetCurrentLanguage">
+            <summary>
+                Gets the current <see cref="T:Languages.Interfaces.ILanguage" />.
+            </summary>
+            <returns>The current <see cref="T:Languages.Interfaces.ILanguage" />.</returns>
+        </member>
+        <member name="M:Languages.Interfaces.ILanguageManager.GetWord(System.String)">
+            <summary>
+                Gets the <see cref="T:Languages.Implementation.Word" /> by a key.
+            </summary>
+            <param name="key">The key for the <see cref="T:Languages.Implementation.Word" /> that is searched.</param>
+            <returns>The corresponding <see cref="T:Languages.Implementation.Word" />.</returns>
+        </member>
+        <member name="M:Languages.Interfaces.ILanguageManager.GetLanguages">
+            <summary>
+                Gets all the loaded <see cref="T:Languages.Interfaces.ILanguage" />s.
+            </summary>
+            <returns>All the loaded <see cref="T:Languages.Interfaces.ILanguage" />s.</returns>
+        </member>
+        <member name="E:Languages.Interfaces.ILanguageManager.OnLanguageChanged">
+            <summary>
+                The <see cref="T:System.EventHandler" /> that is called whenever the <see cref="T:Languages.Implementation.Language" /> changes.
+            </summary>
+        </member>
+        <member name="M:Languages.Interfaces.ILanguageManager.ReloadLanguages">
+            <summary>
+                Reloads all language files.
+            </summary>
+        </member>
+        <member name="T:Languages.Interfaces.IWord">
+            <summary>
+                The <see cref="T:Languages.Implementation.Word" /> class.
+            </summary>
+        </member>
+        <member name="P:Languages.Interfaces.IWord.Key">
+            <summary>
+                The key of the <see cref="T:Languages.Implementation.Word" />.
+            </summary>
+        </member>
+        <member name="P:Languages.Interfaces.IWord.Value">
+            <summary>
+                The value of the <see cref="T:Languages.Implementation.Word" />.
+            </summary>
+        </member>
+    </members>
+</doc>
