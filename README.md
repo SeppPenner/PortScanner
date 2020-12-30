@@ -2,7 +2,7 @@ PortScanner
 ====================================
 
 PortScanner is an executable to scan a specific host for open ports.
-The executable was written and tested in .Net 4.8.
+The executable was written and tested in .Net 5.0.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ta4s12frig120rbo?svg=true)](https://ci.appveyor.com/project/SeppPenner/portscanner)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/PortScanner.svg)](https://github.com/SeppPenner/PortScanner/issues)
@@ -20,9 +20,4 @@ The executable was written and tested in .Net 4.8.
 Change history
 --------------
 
-* **Version 1.0.1.0 (2019-10-27)** : Updated nuget packages, added GitVersionTask.
-* **Version 1.0.0.4 (2019-05-06)** : Updated .Net version to 4.8.
-* **Version 1.0.0.3 (2017-03-24)** : Updated Languages.dll to version 1.0.0.4.
-* **Version 1.0.0.2 (2017-03-21)** : Updated Languages.dll.
-* **Version 1.0.0.1 (2017-02-26)** : Switched to .Net to 4.6.2, Refactored code.
-* **Version 1.0.0.0 (2017-02-26)** : 1.0 release.
+See the [Changelog](https://github.com/SeppPenner/PortScanner/blob/master/Changelog.md).
