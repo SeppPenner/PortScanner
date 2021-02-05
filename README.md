@@ -11,10 +11,10 @@ The executable was written and tested in .Net 5.0.
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://raw.githubusercontent.com/SeppPenner/PortScanner/master/License.txt)
 [![Known Vulnerabilities](https://snyk.io/test/github/SeppPenner/PortScanner/badge.svg)](https://snyk.io/test/github/SeppPenner/PortScanner)
 
-## Screenshot from the executable German:
+## Screenshot from the executable German
 ![Screenshot from the executable German](https://github.com/SeppPenner/PortScanner/blob/master/Screenshot_DE.PNG "Screenshot from the executable German")
 
-## Screenshot from the executable English:
+## Screenshot from the executable English
 ![Screenshot from the executable English](https://github.com/SeppPenner/PortScanner/blob/master/Screenshot_EN.PNG "Screenshot from the executable English")
 
 Change history
