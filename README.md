@@ -2,7 +2,6 @@ PortScanner
 ====================================
 
 PortScanner is an executable to scan a specific host for open ports.
-The executable was written and tested in .Net 5.0.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/ta4s12frig120rbo?svg=true)](https://ci.appveyor.com/project/SeppPenner/portscanner)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/PortScanner.svg)](https://github.com/SeppPenner/PortScanner/issues)
