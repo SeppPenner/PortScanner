@@ -1,4 +1,4 @@
-﻿// --------------------------------------------------------------------------------------------------------------------
+// --------------------------------------------------------------------------------------------------------------------
 // <copyright file="Main.cs" company="Hämmer Electronics">
 //   Copyright (c) All rights reserved.
 // </copyright>
@@ -9,15 +9,6 @@
 
 namespace PortScanner
 {
-    using System;
-    using System.ComponentModel;
-    using System.IO;
-    using System.Net.Sockets;
-    using System.Windows.Forms;
-
-    using Languages.Implementation;
-    using Languages.Interfaces;
-
     /// <summary>
     /// The main form.
     /// </summary>
@@ -31,7 +22,7 @@ namespace PortScanner
         /// <summary>
         /// The scanner background worker.
         /// </summary>
-        private readonly BackgroundWorker scanner = new BackgroundWorker();
+        private readonly BackgroundWorker scanner = new();
 
         /// <summary>
         /// Initializes a new instance of the <see cref="Main"/> class.
@@ -82,7 +73,14 @@ namespace PortScanner
         /// <param name="e">The event args.</param>
         private void ComboBoxLanguageSelectedIndexChanged(object sender, EventArgs e)
         {
-            this.languageManager.SetCurrentLanguageFromName(this.comboBoxLanguage.SelectedItem.ToString());
+            var selectedItem = this.comboBoxLanguage.SelectedItem.ToString();
+
+            if (string.IsNullOrWhiteSpace(selectedItem))
+            {
+                return;
+            }
+
+            this.languageManager.SetCurrentLanguageFromName(selectedItem);
         }
 
         /// <summary>
@@ -155,7 +153,6 @@ namespace PortScanner
                 this.scanner.ReportProgress(i / 65535);
                 try
                 {
-                    // ReSharper disable once UnusedVariable
                     var tcpClient = new TcpClient(host, i);
                     using var sw = File.AppendText(filename);
                     sw.WriteLine(Convert.ToString(i));
