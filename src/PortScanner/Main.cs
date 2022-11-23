@@ -50,7 +50,7 @@ namespace PortScanner
         private void InitializeLanguageManager()
         {
             this.languageManager.SetCurrentLanguage("de-DE");
-            this.languageManager.OnLanguageChanged += this.OnLanguageChanged;
+            this.languageManager.OnLanguageChanged += this.OnLanguageChanged!;
         }
 
         /// <summary>
@@ -101,9 +101,9 @@ namespace PortScanner
         {
             this.scanner.WorkerSupportsCancellation = true;
             this.scanner.WorkerReportsProgress = true;
-            this.scanner.RunWorkerCompleted += this.ScannerCompleted;
-            this.scanner.DoWork += this.ScannerDoWork;
-            this.scanner.ProgressChanged += this.ScannerProgressChanged;
+            this.scanner.RunWorkerCompleted += this.ScannerCompleted!;
+            this.scanner.DoWork += this.ScannerDoWork!;
+            this.scanner.ProgressChanged += this.ScannerProgressChanged!;
         }
 
         /// <summary>
