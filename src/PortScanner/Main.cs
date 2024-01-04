@@ -73,7 +73,7 @@ namespace PortScanner
         /// <param name="e">The event args.</param>
         private void ComboBoxLanguageSelectedIndexChanged(object sender, EventArgs e)
         {
-            var selectedItem = this.comboBoxLanguage.SelectedItem.ToString();
+            var selectedItem = this.comboBoxLanguage.SelectedItem?.ToString();
 
             if (string.IsNullOrWhiteSpace(selectedItem))
             {
