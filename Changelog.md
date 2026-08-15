@@ -1,5 +1,6 @@
 # Change history
 
+* **Version 1.0.8.0 (2026-08-15)** : Updated nuget packages, moved to Net 10.0, added tests, moved the port scan into services and made it finish (parallel scan with a connect timeout, working progress bar, cancellable scan, error message box), fixed the encoding of the setup script, publish the setup content self contained.
 * **Version 1.0.7.0 (2025-01-09)** : Updated Nuget packages, added audit mode, moved to Net9.0.
 * **Version 1.0.6.0 (2024-01-04)** : Updated nuget packages, moved to Net 8.0.
 * **Version 1.0.5.0 (2022-11-23)** : Updated nuget packages, moved to Net 7.0.
