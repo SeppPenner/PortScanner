@@ -12,6 +12,10 @@
 			<Value>Portscan starten</Value>
 		</Word>
 		<Word>
+			<Key>CancelPortscan</Key>
+			<Value>Portscan abbrechen</Value>
+		</Word>
+		<Word>
 			<Key>ScanFrom</Key>
 			<Value>Scan vom </Value>
 		</Word>
@@ -30,6 +34,10 @@
 		<Word>
 			<Key>HostIsEmpty</Key>
 			<Value>Host ist leer</Value>
+		</Word>
+		<Word>
+			<Key>ErrorTitle</Key>
+			<Value>Fehler</Value>
 		</Word>
 	</Words>
 </Language>
