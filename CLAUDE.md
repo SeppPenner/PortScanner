@@ -167,9 +167,9 @@ Do not silently "clean up" these, they are existing behaviour:
   `Application.ProductName + " " + Application.ProductVersion`, so an untagged commit shows
   something like `PortScanner 1.0.9-1+Branch.master.Sha...` in the title bar. That is expected, not
   a bug.
-- **The installer is tracked although `.gitignore` excludes `*.exe`.**
-  `Setup/PortScanner-Setup.exe` is in the repository because it was added with `git add -f`. A new
-  installer has to be force added the same way.
+- **The installer is not tracked, it hangs on the release.** `Setup/PortScanner-Setup.exe` was in the
+  repository up to and including 1.0.8 because it had been added with `git add -f` against the
+  `*.exe` rule. Do not force add it again.
 - **`Setup/PortScanner-Setup.iss` is UTF-8 with a BOM**, since version 1.0.8.0. Inno Setup reads a
   script as UTF-8 only when a BOM is present, otherwise it falls back to the system code page. Up
   to version 1.0.7.0 the file was Windows-1252 without a BOM, which happened to work on a
@@ -202,9 +202,10 @@ Do not silently "clean up" these, they are existing behaviour:
    application and the Inno Setup compiler `ISCC.exe` turns `Setup/PortScanner-Setup.iss` into
    `Setup/PortScanner-Setup.exe`. GitVersion reads the tag, so an installer built before the tag
    exists carries a prerelease version in the executable.
-7. `git add -f Setup/PortScanner-Setup.exe` and commit it, by convention with the message
-   `Updated setup.`.
-8. Push the commits and the tag.
+7. Push the commits and the tag.
+8. Attach `Setup/PortScanner-Setup.exe` to the GitHub release of that tag. **Never commit the
+   installer.** `Setup/` is the `OutputDir` of the Inno Setup script, so the file lands there during
+   the build and `.gitignore` covers it afterwards.
 
 The version in the `Changelog.md` has four parts (`1.0.9.0`), the tag has three (`1.0.9`).
 GitVersion turns the tag into the assembly version, so an untagged commit produces something like
@@ -214,6 +215,22 @@ Note on running the batch file from an agent: `NoDefaultCurrentDirectoryInExePat
 environment, so `cmd` does not search the current directory for executables. Call it as
 `call .\build-setup-files.bat` after a `cd /d` into `Setup`, because the `cd ..\src` inside the
 batch file is relative to the start directory. A double click or a normal console is unaffected.
+
+For step 8 there is no `gh` on this machine. The GitHub API does the job, with the token that
+`git push` already uses, so nothing has to be stored anywhere:
+
+```bash
+c=$(printf "protocol=https\nhost=github.com\n\n" | git credential fill)
+tok=$(printf "%s" "$c" | grep '^password=' | cut -d= -f2-)
+id=$(curl -s -X POST -H "Authorization: Bearer $tok" \
+  https://api.github.com/repos/SeppPenner/PortScanner/releases \
+  -d '{"tag_name":"1.0.9","name":"1.0.9"}' | grep -m1 '"id"' | tr -dc 0-9)
+curl -s -X POST -H "Authorization: Bearer $tok" -H "Content-Type: application/octet-stream" \
+  --data-binary @Setup/PortScanner-Setup.exe \
+  "https://uploads.github.com/repos/SeppPenner/PortScanner/releases/$id/assets?name=PortScanner-Setup.exe"
+```
+
+Never print that token, and never write it into a file.
 
 ## Git
 
